@@ -1,0 +1,148 @@
+body {
+    margin: 0; /* this means all four sides to be set to 0 px */
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+    color: rgb(73, 32, 112);
+    font-size: 70px;
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    
+}
+h2{
+    color: rgb(94, 43, 141);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+.profile_pic{
+    width: 200px;
+    height: 200px;
+}
+.skillpic{
+    width: 200px;
+    height: 200px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top_container{
+    background-color: rgb(231, 187, 227);
+    position: relative;
+    padding-top: 130px;
+} 
+.middle_section{
+    padding-top: 20px;
+    background-color: #7cbbe6;
+    margin: 100px 0;
+}
+.bottom_container{
+    background-color: rgb(203, 219, 144);
+    width: 200px;
+    height: 200px;
+}
+.software{
+    text-decoration: underline;
+}
+.bottom_cloud{
+    position: absolute;
+    width: 100px;
+    height: auto;
+}
+.top_cloud{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    margin-left: 150px;
+}
+.house{
+    width: 400px;
+    height: auto;
+}
+.Python{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.Selenium{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.Java{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.c{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.html-css{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.about{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted rgb(59, 11, 59) 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.btn {
+    background: #c72abd;
+    background-image: -webkit-linear-gradient(top, #c72abd, #b82bb8);
+    background-image: -moz-linear-gradient(top, #c72abd, #b82bb8);
+    background-image: -ms-linear-gradient(top, #c72abd, #b82bb8);
+    background-image: -o-linear-gradient(top, #c72abd, #b82bb8);
+    background-image: linear-gradient(to bottom, #c72abd, #b82bb8);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #5c2c78 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .bottom_section{
+    background-color: #eba8e6;
+    margin-bottom: 30px;
+    padding: 50px 0 20px;
+  }
+
+  a{
+    color: #5e165e;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #EAF6F6;
+  }
